@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\bin\Debug\netstandard1.4\ABetterBot.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\bin\Debug\netstandard1.4\ABetterBot.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\bin\Debug\netstandard1.4\ABetterBot.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\obj\Debug\netstandard1.4\ABetterBot.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\obj\Debug\netstandard1.4\ABetterBot.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\obj\Debug\netstandard1.4\ABetterBot.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\obj\Debug\netstandard1.4\ABetterBot.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\obj\Debug\netstandard1.4\ABetterBot.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\ABetterBot\bin\Debug\netstandard1.4\BotInterface.pdb

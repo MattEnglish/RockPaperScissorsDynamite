@@ -1,0 +1,120 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "rockpaperdynamite/1.0.0": {
+        "dependencies": {
+          "ABetterBot": "1.0.0",
+          "BotInterface": "1.0.0",
+          "MEDrawBot": "1.0.0",
+          "RockPaperDynamiteEngine": "1.0.0",
+          "SimpleExampleBot": "1.0.0",
+          "SimpleExampleBot2": "1.0.0",
+          "TestBots": "1.0.0"
+        },
+        "runtime": {
+          "RockPaperDynamite.dll": {}
+        }
+      },
+      "abetterbot/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "ABetterBot.dll": {}
+        }
+      },
+      "botinterface/1.0.0": {
+        "runtime": {
+          "BotInterface.dll": {}
+        }
+      },
+      "medrawbot/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "MEDrawBot.dll": {}
+        }
+      },
+      "rockpaperdynamiteengine/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "RockPaperDynamiteEngine.dll": {}
+        }
+      },
+      "simpleexamplebot/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "SimpleExampleBot.dll": {}
+        }
+      },
+      "simpleexamplebot2/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "SimpleExampleBot2.dll": {}
+        }
+      },
+      "testbots/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "TestBots.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rockpaperdynamite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "abetterbot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "botinterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "medrawbot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "rockpaperdynamiteengine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "simpleexamplebot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "simpleexamplebot2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "testbots/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

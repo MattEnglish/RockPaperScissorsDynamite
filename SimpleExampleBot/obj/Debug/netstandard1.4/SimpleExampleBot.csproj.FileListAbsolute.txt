@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\bin\Debug\netstandard1.4\SimpleExampleBot.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\bin\Debug\netstandard1.4\SimpleExampleBot.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\bin\Debug\netstandard1.4\SimpleExampleBot.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\obj\Debug\netstandard1.4\SimpleExampleBot.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\obj\Debug\netstandard1.4\SimpleExampleBot.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\obj\Debug\netstandard1.4\SimpleExampleBot.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\obj\Debug\netstandard1.4\SimpleExampleBot.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\obj\Debug\netstandard1.4\SimpleExampleBot.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\SimpleExampleBot\bin\Debug\netstandard1.4\BotInterface.pdb

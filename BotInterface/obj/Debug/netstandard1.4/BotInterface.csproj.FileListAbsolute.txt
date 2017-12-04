@@ -1,0 +1,7 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\bin\Debug\netstandard1.4\BotInterface.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\obj\Debug\netstandard1.4\BotInterface.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\obj\Debug\netstandard1.4\BotInterface.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\obj\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\BotInterface\obj\Debug\netstandard1.4\BotInterface.pdb

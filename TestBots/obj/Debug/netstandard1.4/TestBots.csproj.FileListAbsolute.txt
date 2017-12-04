@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\bin\Debug\netstandard1.4\TestBots.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\obj\Debug\netstandard1.4\TestBots.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\obj\Debug\netstandard1.4\TestBots.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\obj\Debug\netstandard1.4\TestBots.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\bin\Debug\netstandard1.4\TestBots.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\bin\Debug\netstandard1.4\TestBots.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\obj\Debug\netstandard1.4\TestBots.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\TestBots\obj\Debug\netstandard1.4\TestBots.pdb

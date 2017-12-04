@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\bin\Debug\netstandard1.4\ROCKS.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\bin\Debug\netstandard1.4\ROCKS.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\bin\Debug\netstandard1.4\ROCKS.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\obj\Debug\netstandard1.4\ROCKS.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\obj\Debug\netstandard1.4\ROCKS.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\obj\Debug\netstandard1.4\ROCKS.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\obj\Debug\netstandard1.4\ROCKS.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\ROCKS\obj\Debug\netstandard1.4\ROCKS.pdb
