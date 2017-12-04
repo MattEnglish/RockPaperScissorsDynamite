@@ -7,7 +7,7 @@ namespace TestBots
 {
     public class WaterBallons : IBot
     {
-        public string Name => "DynamiteBot";
+        public string Name => "WaterBallon";
         private Random rand;
         private int currentDrawStreak = 0;
         private int dynamiteCounter = 0;
@@ -26,7 +26,7 @@ namespace TestBots
         {
             int approxWinsLeft = 2000 - 2 * Math.Max(myWins, enemyWins);
             double L = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak));//ApproxNumTimesSituationWillRepeat
-            if (L < enemyDynamiteCounter)
+            if (L < 100- enemyDynamiteCounter)
             {
                 return Weapon.WaterBallon;
             }

@@ -19,7 +19,8 @@ namespace RockPaperDynamite
             GameData gameData = gameRunner.RunGame(new MEDraw(), new BetterBot());
             PrintRange(gameData,100,10);
             Console.WriteLine(gameData.ToString());
-
+            gameData = gameRunner.RunGame(new WaterBallons(), new DynamiteBot());
+            Console.WriteLine(gameData.ToString());
             gameData = gameRunner.RunGame(new MEDraw(), new DynamiteBot());
             Console.WriteLine(gameData.ToString());
             gameData = gameRunner.RunGame(new MEDraw(), new WaterBallons());

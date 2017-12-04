@@ -7,4 +7,3 @@ C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamiteEngine\obj\Debug\n
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamiteEngine\obj\Debug\netstandard1.4\RockPaperDynamiteEngine.pdb
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamiteEngine\bin\Debug\netstandard1.4\BotInterface.dll
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamiteEngine\bin\Debug\netstandard1.4\BotInterface.pdb
-C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamiteEngine\obj\Debug\netstandard1.4\RockPaperDynamiteEngine.csprojResolveAssemblyReference.cache

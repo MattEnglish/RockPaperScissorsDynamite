@@ -24,7 +24,7 @@ namespace TestBots
         {
             int approxWinsLeft = 2000 - 2 * Math.Max(myWins, enemyWins);
             double L = (double) approxWinsLeft / (Math.Pow(3, currentDrawStreak));//ApproxNumTimesSituationWillRepeat
-            if(L<dynamiteCounter)
+            if(L<100-dynamiteCounter)
             {
                 return Weapon.Dynamite;
             }
