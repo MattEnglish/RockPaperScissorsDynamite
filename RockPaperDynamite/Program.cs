@@ -28,13 +28,17 @@ namespace RockPaperDynamite
             gameData = gameRunner.RunGame(new MEDraw(), new WeWillRockYou());
             Console.WriteLine(gameData.ToString());
 
-            var leagueData = LeagueRunner.RunLeague(new BetterBot(), new MEDraw());
+            var leagueData = LeagueRunner.RunLeague(new METEST(), new MEDraw());
             Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunLeague(new MEDraw(), new BetterBot());
+            leagueData = LeagueRunner.RunLeague(new MEDraw(), new METEST());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunQuickLeague(new METEST(), new MEDraw());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunQuickLeague(new MEDraw(), new METEST());
             Console.WriteLine(leagueData.ToString());
             leagueData = LeagueRunner.RunQuickLeague(new MEDraw(), new BetterBot());
             Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunQuickLeague(new BetterBot(), new MEDraw());
+            leagueData = LeagueRunner.RunQuickLeague(new METEST(), new BetterBot());
             Console.WriteLine(leagueData.ToString());
 
 

@@ -7,3 +7,4 @@ C:\Users\Matt\source\repos\RockPaperDynamite\MEDrawBot\obj\Debug\netstandard1.4\
 C:\Users\Matt\source\repos\RockPaperDynamite\MEDrawBot\obj\Debug\netstandard1.4\MEDrawBot.pdb
 C:\Users\Matt\source\repos\RockPaperDynamite\MEDrawBot\bin\Debug\netstandard1.4\BotInterface.dll
 C:\Users\Matt\source\repos\RockPaperDynamite\MEDrawBot\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDrawBot\obj\Debug\netstandard1.4\MEDrawBot.csprojResolveAssemblyReference.cache

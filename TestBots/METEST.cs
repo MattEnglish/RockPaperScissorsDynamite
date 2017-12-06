@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using BotInterface;
 
-namespace MEDrawBot
+namespace TestBots
 {
-    public class MEDraw : IBot
+    public class METEST : IBot
 
     {
-        public string Name => "MEBOT";
+        public string Name => "METEST";
 
         private Random rand;
         private int currentDrawStreak = 0;
@@ -15,9 +17,10 @@ namespace MEDrawBot
         private int myWins = 0;
         private int enemyWins = 0;
 
-        public MEDraw()
+        public METEST()
         {
             rand = new Random();
+            rand = new Random(rand.Next());
             rand = new Random(rand.Next());
             rand = new Random(rand.Next());
         }
@@ -28,34 +31,34 @@ namespace MEDrawBot
 
             double L = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak));//ApproxNumTimesSituationWillRepeat
             double d = (Math.Log((double)approxWinsLeft) - Math.Log(100 - dynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
-            double v = Math.Max((Math.Floor(d) + 1.0), 0); //Very approx value of dynamite probably underestimate
+            double v = Math.Max(0.5 * (Math.Floor(d) + 1.0), 0); //Very approx value of dynamite probably underestimate
             double ed = (Math.Log((double)approxWinsLeft) - Math.Log(100 - enemyDynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
-            double ev = Math.Max((Math.Floor(ed) + 1.0), 0); //Very approx value of dynamite
+            double ev = Math.Max(0.5 * (Math.Floor(ed) + 1.0), 0); //Very approx value of dynamite
 
-            double pW = Math.Max((1 -  0.7 * ev / (currentDrawStreak + 1)) / 3.0, 0);//I don't understand why does 0.8 work better than 1. SOMETHING WRONG!!!!!!!!!!!!!!!!!!!!!
+            double pW = Math.Max((1 -  0.7* 2 * ev / (currentDrawStreak + 1)) / 3.0, 0);//probability of choosing waterBallon (This probably should be an upper bound)
             double pD = 0;
-            if( currentDrawStreak > d)
+            if (currentDrawStreak > d)
             {
                 pD = 0.33;
             }
             else if (currentDrawStreak == Math.Floor(d))
             {
-                var a = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak+1));//ApproxNumTimesSituationPlusOneDrawWillRepeat
-                var b = 0.285 * a;//For whatever reason this works fine
-                var c = Math.Max(100 - dynamiteCounter - b,0);
+                var a = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak + 1));//ApproxNumTimesSituationPlusOneDrawWillRepeat
+                var b = 0.3 * a;
+                var c = 100 - dynamiteCounter - b;
                 pD = c / L;
             }
             else
             {
                 pD = 0;
             }
-           
+
             var weaponChoice = rand.NextDouble();
             if (weaponChoice < pW)
             {
                 return Weapon.WaterBallon;
             }
-            if(weaponChoice < pW + pD)
+            if (weaponChoice < pW + pD)
             {
                 return Weapon.Dynamite;
             }
@@ -103,6 +106,6 @@ namespace MEDrawBot
             enemyDynamiteCounter = 0;
             myWins = 0;
             enemyWins = 0;
-    }
+        }
     }
 }

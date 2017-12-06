@@ -22,9 +22,9 @@ namespace RockPaperDynamiteEngine
         {
             if (victory == Victory.player1Victory)
             {
-                return P1Name + " Victory, " + P1WinCount.ToString() + ":" + P2WinCount.ToString();
+                return P1Name + " Victory against " + P2Name + "   "+ P1WinCount.ToString() + ":" + P2WinCount.ToString();
             }
-            return P2Name + " Victory, " + P1WinCount.ToString() + ":" + P2WinCount.ToString();
+            return P2Name + "Victory against "+P1Name + "   " + P1WinCount.ToString() + ":" + P2WinCount.ToString();
         }
         
 
