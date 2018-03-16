@@ -30,12 +30,12 @@ namespace TestBots
             int approxWinsLeft = 2000 - 2 * Math.Max(myWins, enemyWins);
 
             double L = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak));//ApproxNumTimesSituationWillRepeat
-            double d = (Math.Log((double)approxWinsLeft) - Math.Log(100 - dynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
+            double d = -1 + (Math.Log((double)approxWinsLeft) - Math.Log(100 - dynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
             double v = Math.Max(0.5 * (Math.Floor(d) + 1.0), 0); //Very approx value of dynamite probably underestimate
-            double ed = (Math.Log((double)approxWinsLeft) - Math.Log(100 - enemyDynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
+            double ed = -1 + (Math.Log((double)approxWinsLeft) - Math.Log(100 - enemyDynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
             double ev = Math.Max(0.5 * (Math.Floor(ed) + 1.0), 0); //Very approx value of dynamite
 
-            double pW = Math.Max((1 -  0.7* 2 * ev / (currentDrawStreak + 1)) / 3.0, 0);//probability of choosing waterBallon (This probably should be an upper bound)
+            double pW = Math.Max((1 -  1* 2 * ev / (currentDrawStreak + 1)) / 3.0, 0);//probability of choosing waterBallon (This probably should be an upper bound)
             double pD = 0;
             if (currentDrawStreak > d)
             {
@@ -44,7 +44,7 @@ namespace TestBots
             else if (currentDrawStreak == Math.Floor(d))
             {
                 var a = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak + 1));//ApproxNumTimesSituationPlusOneDrawWillRepeat
-                var b = 0.3 * a;
+                var b = 0.33 * a;
                 var c = 100 - dynamiteCounter - b;
                 pD = c / L;
             }

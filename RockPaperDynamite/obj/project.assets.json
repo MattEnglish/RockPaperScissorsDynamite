@@ -2294,7 +2294,7 @@
           "bin/placeholder/BotInterface.dll": {}
         }
       },
-      "MEDrawBot/1.0.0": {
+      "MEDraw3/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
@@ -2302,10 +2302,38 @@
           "NETStandard.Library": "1.6.1"
         },
         "compile": {
-          "bin/placeholder/MEDrawBot.dll": {}
+          "bin/placeholder/MEDraw3.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MEDrawBot.dll": {}
+          "bin/placeholder/MEDraw3.dll": {}
+        }
+      },
+      "MeLearn/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "BotInterface": "1.0.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/MeLearn.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeLearn.dll": {}
+        }
+      },
+      "MELearn2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "BotInterface": "1.0.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "bin/placeholder/MELearn2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MELearn2.dll": {}
         }
       },
       "RockPaperDynamiteEngine/1.0.0": {
@@ -7137,10 +7165,20 @@
       "path": "../BotInterface/BotInterface.csproj",
       "msbuildProject": "../BotInterface/BotInterface.csproj"
     },
-    "MEDrawBot/1.0.0": {
+    "MEDraw3/1.0.0": {
       "type": "project",
-      "path": "../MEDrawBot/MEDrawBot.csproj",
-      "msbuildProject": "../MEDrawBot/MEDrawBot.csproj"
+      "path": "../MEDraw3/MEDraw3.csproj",
+      "msbuildProject": "../MEDraw3/MEDraw3.csproj"
+    },
+    "MeLearn/1.0.0": {
+      "type": "project",
+      "path": "../MeLearn/MeLearn.csproj",
+      "msbuildProject": "../MeLearn/MeLearn.csproj"
+    },
+    "MELearn2/1.0.0": {
+      "type": "project",
+      "path": "../MELearn2/MELearn2.csproj",
+      "msbuildProject": "../MELearn2/MELearn2.csproj"
     },
     "RockPaperDynamiteEngine/1.0.0": {
       "type": "project",
@@ -7167,7 +7205,9 @@
     ".NETCoreApp,Version=v1.1": [
       "ABetterBot >= 1.0.0",
       "BotInterface >= 1.0.0",
-      "MEDrawBot >= 1.0.0",
+      "MEDraw3 >= 1.0.0",
+      "MELearn2 >= 1.0.0",
+      "MeLearn >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.2",
       "RockPaperDynamiteEngine >= 1.0.0",
       "SimpleExampleBot >= 1.0.0",
@@ -7204,14 +7244,17 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MEDrawBot\\MEDrawBot.csproj": {
-              "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MEDrawBot\\MEDrawBot.csproj"
-            },
             "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\SimpleExampleBot2\\SimpleExampleBot2.csproj": {
               "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\SimpleExampleBot2\\SimpleExampleBot2.csproj"
             },
+            "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MeLearn\\MeLearn.csproj": {
+              "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MeLearn\\MeLearn.csproj"
+            },
             "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\ABetterBot\\ABetterBot.csproj": {
               "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\ABetterBot\\ABetterBot.csproj"
+            },
+            "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MEDraw3\\MEDraw3.csproj": {
+              "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MEDraw3\\MEDraw3.csproj"
             },
             "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\SimpleExampleBot\\SimpleExampleBot.csproj": {
               "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\SimpleExampleBot\\SimpleExampleBot.csproj"
@@ -7221,6 +7264,9 @@
             },
             "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\BotInterface\\BotInterface.csproj": {
               "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\BotInterface\\BotInterface.csproj"
+            },
+            "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MELearn2\\MELearn2.csproj": {
+              "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\MELearn2\\MELearn2.csproj"
             },
             "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\TestBots\\TestBots.csproj": {
               "projectPath": "C:\\Users\\Matt\\source\\repos\\RockPaperDynamite\\TestBots\\TestBots.csproj"

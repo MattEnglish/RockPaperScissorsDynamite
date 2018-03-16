@@ -8,7 +8,7 @@ namespace RockPaperDynamite
 {
     public class LeagueRunner
     {
-        public static LeagueData RunLeague( IBot bot1, IBot bot2, int NumberOfGames = 10000)
+        public static LeagueData RunLeague( IBot bot1, IBot bot2, int NumberOfGames = 1000)
         {
             var leagueData = new LeagueData(bot1.Name, bot2.Name);
             var gameRunner = new GameRunnerWithData();
@@ -33,7 +33,7 @@ namespace RockPaperDynamite
             
         }
 
-        public static LeagueData RunQuickLeague(IBot bot1, IBot bot2, int NumberOfGames = 10000)
+        public static LeagueData RunQuickLeague(IBot bot1, IBot bot2, int NumberOfGames = 1000)
         {
             var leagueData = new LeagueData(bot1.Name, bot2.Name);
             for (int i = 0; i < NumberOfGames; i++)

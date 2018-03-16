@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\bin\Debug\netstandard1.4\MEDraw3.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\obj\Debug\netstandard1.4\MEDraw3.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\obj\Debug\netstandard1.4\MEDraw3.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\obj\Debug\netstandard1.4\MEDraw3.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\bin\Debug\netstandard1.4\MEDraw3.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\bin\Debug\netstandard1.4\MEDraw3.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\obj\Debug\netstandard1.4\MEDraw3.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDraw3\obj\Debug\netstandard1.4\MEDraw3.pdb

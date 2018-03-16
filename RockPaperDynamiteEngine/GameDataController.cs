@@ -41,6 +41,13 @@ namespace RockPaperDynamiteEngine
                 }
             }
 
+            if(gameData.Battles.Count == 1000)
+            {
+                gameData.P1DynamiteAfter1000Battles = gameData.P1DynamiteUsed;
+                gameData.P2DynamiteAfter1000Battles = gameData.P2DynamiteUsed;
+            }
+
+
             switch (battle.P1BattleResult)
             {
                 case BattleResult.Draw:

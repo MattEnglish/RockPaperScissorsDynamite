@@ -3,8 +3,10 @@ using RockPaperDynamiteEngine;
 using SimpleExampleBot;
 using BotInterface;
 using ABetterBot;
-using MEDrawBot;
+using MEDRAW3;
 using TestBots;
+using MeLearn;
+using MELearn2;
 
 
 namespace RockPaperDynamite
@@ -13,35 +15,84 @@ namespace RockPaperDynamite
     {
         static void Main(string[] args)
         {
+            runGames();
+        }
+
+        public static void runTest()
+        {
+            var waveMemory = new WaveMemoryStreak();
+            waveMemory.AddMove(Weapon.Rock);
+            waveMemory.AddMove(Weapon.Rock);
+            waveMemory.AddMove(Weapon.Rock);
+            waveMemory.AddMove(Weapon.Dynamite);
+            waveMemory.AddMove(Weapon.Dynamite);
+            waveMemory.AddMove(Weapon.Dynamite);
+
+            var x = waveMemory.getNextShotProbValues();
+        }
+
+        public static void runGames()
+        {
+
             var gameRunner = new GameRunnerWithData();
             IBot bot1 = new ASimpleExampleBot();
             IBot bot2 = new ASecondSimpleExampleBot();
-            GameData gameData = gameRunner.RunGame(new MEDraw(), new BetterBot());
-            PrintRange(gameData,100,10);
+
+            GameData gameData;
+            gameData = gameRunner.RunGame(new WaveBot(), new WeWillRockYou());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new BetterBot());
+            PrintRange(gameData, 100, 10);
             Console.WriteLine(gameData.ToString());
             gameData = gameRunner.RunGame(new WaterBallons(), new DynamiteBot());
             Console.WriteLine(gameData.ToString());
-            gameData = gameRunner.RunGame(new MEDraw(), new DynamiteBot());
+            gameData = gameRunner.RunGame(new WaveBot(), new DynamiteBot());
             Console.WriteLine(gameData.ToString());
-            gameData = gameRunner.RunGame(new MEDraw(), new WaterBallons());
+            gameData = gameRunner.RunGame(new WaveBot(), new WaterBallons());
             Console.WriteLine(gameData.ToString());
-            gameData = gameRunner.RunGame(new MEDraw(), new WeWillRockYou());
+            gameData = gameRunner.RunGame(new WaveBot(), new WeWillRockYou());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new ShortTermMemory());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new ShortTermMemory2());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new METEST());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new METEST());
             Console.WriteLine(gameData.ToString());
 
-            var leagueData = LeagueRunner.RunLeague(new METEST(), new MEDraw());
-            Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunLeague(new MEDraw(), new METEST());
-            Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunQuickLeague(new METEST(), new MEDraw());
-            Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunQuickLeague(new MEDraw(), new METEST());
-            Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunQuickLeague(new MEDraw(), new BetterBot());
-            Console.WriteLine(leagueData.ToString());
-            leagueData = LeagueRunner.RunQuickLeague(new METEST(), new BetterBot());
+
+            gameData = gameRunner.RunGame(new WaveBot(), new DynamiteBot());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new WaterBallons());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new WeWillRockYou());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new ShortTermMemory());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new ShortTermMemory(), new WaveBot());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new METEST());
+            Console.WriteLine(gameData.ToString());
+            gameData = gameRunner.RunGame(new WaveBot(), new METEST());
+            Console.WriteLine(gameData.ToString());
+
+            var leagueData = LeagueRunner.RunLeague(new ShortTermMemory(), new WaveBot());
             Console.WriteLine(leagueData.ToString());
 
-
+            leagueData = LeagueRunner.RunLeague(new METEST(), new WaveBot());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunLeague( new WaveBot(), new ShortTermMemory2());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunQuickLeague(new WaveBot(), new MEDraw());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunQuickLeague(new WaveBot(), new BetterBot());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunQuickLeague(new WaveBot(), new DynamiteBot());
+            Console.WriteLine(leagueData.ToString());
+            leagueData = LeagueRunner.RunQuickLeague(new WaveBot(), new WaterBallons());
+            Console.WriteLine(leagueData.ToString());
+            Console.Read();
         }
 
         public static void PrintRange(GameData gameData, int startingIndex, int count)

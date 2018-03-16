@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\bin\Debug\netstandard1.4\MELearn2.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\bin\Debug\netstandard1.4\MELearn2.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\bin\Debug\netstandard1.4\MELearn2.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\obj\Debug\netstandard1.4\MELearn2.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\obj\Debug\netstandard1.4\MELearn2.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\obj\Debug\netstandard1.4\MELearn2.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\obj\Debug\netstandard1.4\MELearn2.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MELearn2\obj\Debug\netstandard1.4\MELearn2.pdb

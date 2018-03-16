@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\bin\Debug\netstandard1.4\MeLearn.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\bin\Debug\netstandard1.4\MeLearn.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\bin\Debug\netstandard1.4\MeLearn.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\obj\Debug\netstandard1.4\MeLearn.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\obj\Debug\netstandard1.4\MeLearn.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\obj\Debug\netstandard1.4\MeLearn.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\obj\Debug\netstandard1.4\MeLearn.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MeLearn\obj\Debug\netstandard1.4\MeLearn.csprojResolveAssemblyReference.cache

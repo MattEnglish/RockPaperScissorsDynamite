@@ -10,7 +10,9 @@
         "dependencies": {
           "ABetterBot": "1.0.0",
           "BotInterface": "1.0.0",
-          "MEDrawBot": "1.0.0",
+          "MEDraw3": "1.0.0",
+          "MELearn2": "1.0.0",
+          "MeLearn": "1.0.0",
           "RockPaperDynamiteEngine": "1.0.0",
           "SimpleExampleBot": "1.0.0",
           "SimpleExampleBot2": "1.0.0",
@@ -33,12 +35,28 @@
           "BotInterface.dll": {}
         }
       },
-      "medrawbot/1.0.0": {
+      "medraw3/1.0.0": {
         "dependencies": {
           "BotInterface": "1.0.0"
         },
         "runtime": {
-          "MEDrawBot.dll": {}
+          "MEDraw3.dll": {}
+        }
+      },
+      "melearn/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "MeLearn.dll": {}
+        }
+      },
+      "melearn2/1.0.0": {
+        "dependencies": {
+          "BotInterface": "1.0.0"
+        },
+        "runtime": {
+          "MELearn2.dll": {}
         }
       },
       "rockpaperdynamiteengine/1.0.0": {
@@ -91,7 +109,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "medrawbot/1.0.0": {
+    "medraw3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "melearn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "melearn2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

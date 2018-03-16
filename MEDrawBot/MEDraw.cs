@@ -27,12 +27,12 @@ namespace MEDrawBot
             int approxWinsLeft = 2000 - 2 * Math.Max(myWins, enemyWins);
 
             double L = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak));//ApproxNumTimesSituationWillRepeat
-            double d = (Math.Log((double)approxWinsLeft) - Math.Log(100 - dynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
-            double v = Math.Max((Math.Floor(d) + 1.0), 0); //Very approx value of dynamite probably underestimate
-            double ed = (Math.Log((double)approxWinsLeft) - Math.Log(100 - enemyDynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
-            double ev = Math.Max((Math.Floor(ed) + 1.0), 0); //Very approx value of dynamite
+            double d = -1 + (Math.Log((double)approxWinsLeft) - Math.Log(100 - dynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
+            double v = 1.4* Math.Max((Math.Floor(d) + 1.0), 0); //Very approx value of dynamite probably underestimate
+            double ed = -1 + (Math.Log((double)approxWinsLeft) - Math.Log(100 - enemyDynamiteCounter)) / Math.Log(3);//Approx number Of Consecutive Draws Whereby dynamite can be thrown one third of the time.
+            double ev = 1.4 * Math.Max((Math.Floor(ed) + 1.0), 0); //Very approx value of dynamite
 
-            double pW = Math.Max((1 -  0.7 * ev / (currentDrawStreak + 1)) / 3.0, 0);//I don't understand why does 0.8 work better than 1. SOMETHING WRONG!!!!!!!!!!!!!!!!!!!!!
+            double pW = Math.Max((1 -  1 * ev / (currentDrawStreak + 1)) / 3.0, 0);//I don't understand why does 0.8 work better than 1. SOMETHING WRONG!!!!!!!!!!!!!!!!!!!!!
             double pD = 0;
             if( currentDrawStreak > d)
             {
@@ -41,9 +41,10 @@ namespace MEDrawBot
             else if (currentDrawStreak == Math.Floor(d))
             {
                 var a = (double)approxWinsLeft / (Math.Pow(3, currentDrawStreak+1));//ApproxNumTimesSituationPlusOneDrawWillRepeat
-                var b = 0.285 * a;//For whatever reason this works fine
+                var b = 0.30 * a;//For whatever reason this works fine
                 var c = Math.Max(100 - dynamiteCounter - b,0);
                 pD = c / L;
+                pD = Math.Min(pD, 0.33);
             }
             else
             {

@@ -18,7 +18,11 @@ C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcore
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\BotInterface.dll
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\ABetterBot.pdb
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\BotInterface.pdb
-C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MEDrawBot.dll
-C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MEDrawBot.pdb
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\TestBots.dll
 C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\TestBots.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MEDraw3.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MeLearn.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MEDraw3.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MeLearn.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MELearn2.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\RockPaperDynamite\bin\Debug\netcoreapp1.1\MELearn2.pdb

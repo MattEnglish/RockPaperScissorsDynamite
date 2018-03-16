@@ -17,6 +17,8 @@ namespace RockPaperDynamiteEngine
         public int currentDrawStreak { get; set; }
         public Victory victory { get; set; } = Victory.unknown;
         public string VictoryReason { get; set; } = "";
+        public int P1DynamiteAfter1000Battles { get; set; }
+        public int P2DynamiteAfter1000Battles { get; set; }
 
         public override string ToString()
         {

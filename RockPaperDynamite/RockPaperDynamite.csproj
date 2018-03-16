@@ -8,7 +8,9 @@
   <ItemGroup>
     <ProjectReference Include="..\ABetterBot\ABetterBot.csproj" />
     <ProjectReference Include="..\BotInterface\BotInterface.csproj" />
-    <ProjectReference Include="..\MEDrawBot\MEDrawBot.csproj" />
+    <ProjectReference Include="..\MEDraw3\MEDraw3.csproj" />
+    <ProjectReference Include="..\MELearn2\MELearn2.csproj" />
+    <ProjectReference Include="..\MeLearn\MeLearn.csproj" />
     <ProjectReference Include="..\RockPaperDynamiteEngine\RockPaperDynamiteEngine.csproj" />
     <ProjectReference Include="..\SimpleExampleBot2\SimpleExampleBot2.csproj" />
     <ProjectReference Include="..\SimpleExampleBot\SimpleExampleBot.csproj" />

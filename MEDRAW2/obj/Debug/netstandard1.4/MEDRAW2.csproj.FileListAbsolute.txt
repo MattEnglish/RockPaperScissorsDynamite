@@ -1,0 +1,10 @@
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\bin\Debug\netstandard1.4\MEDRAW2.deps.json
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\bin\Debug\netstandard1.4\MEDRAW2.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\bin\Debug\netstandard1.4\MEDRAW2.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\bin\Debug\netstandard1.4\BotInterface.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\bin\Debug\netstandard1.4\BotInterface.pdb
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\obj\Debug\netstandard1.4\MEDRAW2.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\obj\Debug\netstandard1.4\MEDRAW2.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\obj\Debug\netstandard1.4\MEDRAW2.AssemblyInfo.cs
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\obj\Debug\netstandard1.4\MEDRAW2.dll
+C:\Users\Matt\source\repos\RockPaperDynamite\MEDRAW2\obj\Debug\netstandard1.4\MEDRAW2.pdb
